@@ -27,5 +27,10 @@ for (int i = 0; i < array.Length; i++)
         array1[index] = array[i];
         index++;
     }
+     else
+    {
+        Console.WriteLine("Длина элементов массива больше 3х символов");
+        break;
+    }
 }
 Print(array1);
